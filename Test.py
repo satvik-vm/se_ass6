@@ -8,7 +8,7 @@ class TestSum(unittest.TestCase):
 	def test_list_int(self):
 		a_1 = 10
 		b_1 = 10
-		result = mulitply(a_1, b_1)
+		result = multiply(a_1, b_1)
 		self.assertEqual(result, 100)
 		
 		a_2 = 10
