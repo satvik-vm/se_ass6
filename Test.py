@@ -2,7 +2,7 @@
 # Test case for adding two numbers
 import unittest
 
-from program.py import multiply
+from program import multiply
 
 class TestSum(unittest.TestCase):
 	def test_list_int(self):
