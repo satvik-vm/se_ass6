@@ -11,8 +11,9 @@ class TestSum(unittest.TestCase):
 		result = multiply(a_1, b_1)
 		try:
 			self.assertEqual(result, 100)
-		except(AssertionError):
+		except AssertionError as err:
 			print("Case failed")
+			print(err)
 		else:
 			print("Case passed")
 	
@@ -22,8 +23,9 @@ class TestSum(unittest.TestCase):
 		result = multiply(a_2, b_2)
 		try:
 			self.assertEqual(result, 50)
-		except(AssertionError):
+		except AssertionError as err:
 			print("Case failed")
+			print(err)
 		else:
 			print("Case passed")
 
@@ -33,8 +35,9 @@ class TestSum(unittest.TestCase):
 		result = multiply(a_3, b_3)
 		try:
 			self.assertEqual(result, 25)
-		except(AssertionError):
+		except AssertionError as err:
 			print("Case failed")
+			print(err)
 		else:
 			print("Case passed")
 
@@ -44,8 +47,9 @@ class TestSum(unittest.TestCase):
 		result = multiply(a_4, b_4)
 		try:
 			self.assertEqual(result, 20) 
-		except(AssertionError):
+		except AssertionError as err:
 			print("Case failed")
+			print(err)
 		else:
 			print("Case passed")
 
@@ -55,8 +59,9 @@ class TestSum(unittest.TestCase):
 		result = multiply(a_5, b_5)
 		try:
 			self.assertEqual(result, 25)
-		except(AssertionError):
+		except AssertionError as err:
 			print("Case failed")
+			print(err)
 		else:
 			print("Case passed")
 
